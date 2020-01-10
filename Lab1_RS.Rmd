@@ -78,6 +78,6 @@ salmon_first_5 <- salmon_summary %>%
 Use kable:
 ```{r}
 kable(salmon_first_5) %>%
-  kable_styling(boostrap_options = striped, full_width = FALSE)
+  kable_styling(boostrap_options = striped, full_width = FALSE) #Check the kable styling to understand what is going on.
 ```
 
